@@ -1,0 +1,20 @@
+body{
+    background-color: yellow;
+}
+.column{
+    border: groove ;
+    color: red;
+    text-align: center;
+}
+.div__parrent{
+    display: flex;
+}
+.div__column1{
+    flex: 0.6;
+}
+.div__column2{
+    flex: 0.4;
+}
+.column__aside{
+    text-align: center;
+}

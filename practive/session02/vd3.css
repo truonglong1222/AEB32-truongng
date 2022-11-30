@@ -1,0 +1,13 @@
+.column__parrent {
+  display: flex;
+}
+.column__left {
+  flex: 0.5;
+  background-color: red;
+  color: blue;
+}
+.column__right {
+  flex: o.5;
+  background-color: blue;
+  color: red;
+}
