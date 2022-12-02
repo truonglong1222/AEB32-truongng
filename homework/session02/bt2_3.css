@@ -1,0 +1,44 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.container {
+    width: 950px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-weight: normal;
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.5em;
+}
+
+.div__img {
+    margin-bottom: 2em;
+}
+
+.div__cark {
+    font-size: 0.9em;
+    font-style: italic;
+    text-align: center;
+}
+
+.div__cark1 {
+    font-size: 18px;
+    margin: 0 0 0.75em;
+}
+
+.div__cark2 {
+    font-size: 18px;
+    color: #477dca;
+}
