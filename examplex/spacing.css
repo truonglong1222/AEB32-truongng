@@ -1,0 +1,45 @@
+body {
+    font-family: "Sofia";
+    font-size: 22px;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  .letter1 {
+    letter-spacing: 3px;
+  }
+  .letter2 {
+    letter-spacing: -3px;
+  }
+  .line1 {
+    line-height: 0.7;
+  }
+  .line2 {
+    line-height: 1.8;
+  }
+  .word1 {
+    word-spacing: 10px;
+  }
+  .word2 {
+    word-spacing: -5px;
+  }
+  .indent1 {
+    text-indent: 32px;
+  }
+  .align1{
+    text-align: inherit;
+  }
+  .justify1{
+    text-align: justify;
+  }
+  .center1{
+    text-align: center;
+  }
+  .right1{
+    text-align: right;
+  }
+  .left1{
+    text-align: left;
+  }

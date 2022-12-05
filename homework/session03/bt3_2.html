@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>block ui 1</title>
+    <style>
+      body {
+        margin: 20px;
+        padding: 0;
+      }
+      .div__parrent {
+        display: flex;
+        align-items: center;
+        height: 50px;
+      }
+      .div__left__red {
+        background-color: red;
+        flex: 0.25;
+
+       
+      }
+      .div__right__red{
+        background-color: aqua;
+      }
+      .div_word{
+        direction: rtl;
+        text-indent: 30px;
+        color: white;
+        font-size: 19px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div__parrent">
+      <div class="div__left__red div_word">BANDWIDTH</div>
+      <div class="div__parrent div__right__red div_word">
+        <div class="div__red div_word">20%</div>
+      </div>
+    </div>
+  </body>
+</html>

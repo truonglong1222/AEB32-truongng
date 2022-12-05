@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decoration</title>
+    <!-- Thiết lập các trang trí thêm cho text. -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <style>
+      body {
+        font-family: "Sofia";
+        font-size: 22px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+      .inherit1{
+        text-decoration: inherit;
+      }
+      .blink1{
+        text-decoration: blink;
+      }
+      .line-through1{
+        text-decoration: line-through;
+      }
+      .overline1{
+        text-decoration: overline;
+      }
+      .underline1{
+        text-decoration: underline;
+      }
+      .none1{
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 100%">
+      <tr>
+        <th>Thuộc tính</th>
+        <th>Giá trị</th>
+        <th>Ví dụ</th>
+        <th>Miêu tả</th>
+      </tr>
+      <tr>
+        <td rowspan="6">text-decoration</td>
+        <td>none</td>
+        <td>text-decoration: none;</td>
+        <td class="none1">Định dạng văn bản bình thường, đây là dạng mặc định.</td>
+      </tr>
+      <tr>
+        <td>underline</td>
+        <td>text-decoration: underline;</td>
+        <td class="underline1">Xác định đường gạch bên dưới văn bản.</td>
+      </tr>
+      <tr>
+        <td>overline</td>
+        <td>text-decoration: overline;</td>
+        <td class="overline1">Xác định đường gạch bên trên văn bản.</td>
+      </tr>
+      <tr>
+        <td>line-through</td>
+        <td>text-decoration: line-through;</td>
+        <td class="line-through1">Xác định đường gạch ngang văn bản.</td>
+      </tr>
+      <tr>
+        <td>blink</td>
+        <td>text-decoration: blink;</td>
+        <td class="blink1">Xác định văn bản nhấp nháy.</td>
+      </tr>
+      <tr>
+        <td>inherit</td>
+        <td>text-decoration: inherit;</td>
+        <td class="inherit1">
+          Xác định thừa hưởng thuộc tính từ thành phần cha (thành phần bao
+          ngoài)
+        </td>
+      </tr>
+    </table>
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+  </body>
+</html>

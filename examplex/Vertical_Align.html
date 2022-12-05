@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vertical align</title>
+    <!-- Sắp xếp các nội dung theo chiều dọc -->
+    <style>
+      body {
+        background-color: blanchedalmond;
+        color: #d8622e;
+        font-size: 18px;
+      }
+
+      span {
+        font-style: italic;
+        color: black;
+      }
+      img {
+        width: 60px;
+        border: 1px solid black;
+      }
+      .ver__10px {
+        vertical-align: 10px;
+      }
+      .ver__baseline {
+        vertical-align: baseline;
+      }
+      .ver__sub {
+        vertical-align: sub;
+      }
+      .ver__super {
+        vertical-align: super;
+      }
+      .ver__top {
+        vertical-align: top;
+      }
+      .ver__text-top {
+        vertical-align: text-top;
+      }
+      .ver__middle {
+        vertical-align: middle;
+      }
+      .ver__bottom {
+        vertical-align: bottom;
+      }
+      .ver__text-bottom {
+        vertical-align: text-bottom;
+      }
+      .ver__inherit {
+        vertical-align: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Sắp xếp các nội dung theo chiều dọc. -->
+    <p>
+      <span class="ver__10px"
+        >vertical-align: 10px <img src="./images/logo-dep.png" alt=""
+      /></span>
+      Xác định khoảng cách cho thành phần, có thể dùng số âm.
+    </p>
+    <p>
+      <span class="ver__baseline"
+        >vertical-align: baseline <img src="./images/logo-dep.png" alt=""
+      /></span>
+      Đây là dạng cơ bản, mặc định, các thành phần đều nằm theo cùng đường cơ
+      bản (baseline).
+    </p>
+    <p>
+      <span class="ver__sub"
+        >vertical-align: sub <img src="./images/logo-dep.png" alt=""
+      /></span>
+      Canh lề thành phần giống như sử dụng subscript.
+    </p>
+    <p>
+      <span class="ver__super"
+        >vertical-align: super <img src="./images/logo-dep.png" alt=""
+      /></span>
+      Canh lề thành phần giống như sử dụng superscript.
+    </p>
+    <p>
+      <span class="ver__top"
+        >vertical-align: top <img src="./images/logo-dep.png" alt=""
+      /></span>
+      Canh phần trên cùng của thành phần theo phần trên cùng cao nhất của các
+      thành phần trong cùng hàng.
+    </p>
+    <p>
+      <span class="ver__text-top"
+        >vertical-align: text-top <img src="./images/logo-dep.png" alt=""
+      /></span>
+      Canh phần trên cùng của thành phần theo phần trên cùng cao nhất của text
+      của thành phần bao ngoài.
+    </p>
+    <p>
+      <span class="ver__middle"
+        >vertical-align: middle <img src="./images/logo-dep.png" alt=""
+      /></span>
+      Thành phần sẽ được canh giữa theo thành phần bao ngoài.
+    </p>
+    <p>
+      <span class="ver__bottom"
+        >vertical-align: bottom <img src="./images/logo-dep.png" alt=""
+      /></span>
+      Canh phần dưới cùng của thành phần theo phần dưới cùng thấp nhất của các
+      thành phần trong cùng hàng.
+    </p>
+    <p>
+      <span class="ver__text-bottom"
+        >vertical-align: text-bottom <img src="./images/logo-dep.png" alt=""
+      /></span>
+      Canh phần dưới cùng của thành phần theo phần dưới cùng thấp nhất của text
+      của thành phần bao ngoài.
+    </p>
+    <p>
+      <span class="ver__inherit"
+        >vertical-align: inherit <img src="./images/logo-dep.png" alt=""
+      /></span>
+      Xác định thừa hưởng thuộc tính từ thành phần cha (thành phần bao ngoài).
+    </p>
+  </body>
+</html>

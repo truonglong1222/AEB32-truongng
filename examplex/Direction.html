@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Direction</title>
+    <!-- Xác định hướng cho văn bản. -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
+
+    <style>
+      body {
+        background-color: blanchedalmond;
+        color: black;
+        font-family: 'Sofia';
+        font-size: 22px;
+      }
+      div {
+        border: 1px solid black;
+      }
+      div.div__dir__rtl {
+        direction: rtl;
+      }
+      div {
+        border: 1px solid black;
+      }
+      div.div__dir__inherit {
+        direction: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Hướng văn bản từ trái sang phải, đây là mặc định của direction.</div>
+    <div class="div__dir__rtl">Hướng văn bản từ phải sang trái.</div>
+    <div class="div__dir__inherit">
+      Xác định thừa hưởng thuộc tính từ thành phần cha (thành phần bao ngoài).
+    </div>
+  </body>
+</html>

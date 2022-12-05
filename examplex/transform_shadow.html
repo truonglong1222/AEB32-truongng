@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <style>
+      body {
+        background-color: blanchedalmond;
+        color: #e74e0b;
+        font-size: 22px;
+        font-family: "Sofia";
+      }
+      table,
+      th,
+      tr,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      .none1 {
+        text-transform: none;
+      }
+      .capitalize1 {
+        text-transform: capitalize;
+      }
+      .uppercase1 {
+        text-transform: uppercase;
+      }
+      .lowercase1 {
+        text-transform: lowercase;
+      }
+      .inherit1 {
+        text-transform: inherit;
+      }
+      .shadow1 {
+        color: black;
+        font-size: 26px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #999999;
+      }
+      .shadow2 {
+        color: black;
+        font-size: 26px;
+        font-weight: bold;
+        text-shadow: 10px 2px 2px #999999;
+      }
+      .shadow3 {
+        color: black;
+        font-size: 26px;
+        font-weight: bold;
+        text-shadow: 2px 10px 2px #999999;
+      }
+      .shadow4 {
+        color: black;
+        font-size: 26px;
+        font-weight: bold;
+        text-shadow: 2px 2px 10px #999999;
+      }
+      .shadow5 {
+        color: black;
+        font-size: 26px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #00ff00;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 100%">
+      <tr>
+        <th>Thuộc tính</th>
+        <th>giá trị</th>
+        <th>Ví dụ</th>
+        <th>Mô tả</th>
+      </tr>
+      <tr>
+        <td rowspan="5">text-transform</td>
+        <td>none</td>
+        <td class="none1">text-transform: none;</td>
+        <td>Trả văn bản về dạng mặc định ban đầu.</td>
+      </tr>
+      <tr>
+        <td>capitalize</td>
+        <td>text-transform: capitalize;</td>
+        <td class="capitalize1">Chữ đầu tiên của mỗi thành phần là chữ hoa.</td>
+      </tr>
+      <tr>
+        <td>uppercase</td>
+        <td>text-transform: uppercase;</td>
+        <td class="uppercase1">Tất cả chữ trong văn bản thành chữ hoa.</td>
+      </tr>
+      <tr>
+        <td>lowercase</td>
+        <td>text-transform: lowercase;</td>
+        <td class="lowercase1">Tất cả chữ trong văn bản thành chữ thường.</td>
+      </tr>
+      <tr>
+        <td>inherit</td>
+        <td>text-transform: inherit;</td>
+        <td class="inherit1">
+          Xác định thừa hưởng thuộc tính từ thành phần cha (thành phần bao
+          ngoài).
+        </td>
+      </tr>
+      <tr>
+        <td rowspan="5">text-shadow</td>
+        <td>text-shadow: h-offset v-offset blur color;</td>
+        <td>text-shadow: 2px 2px 2px #999999;</td>
+        <td class="shadow1">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        </td>
+      </tr>
+      <tr>
+        <td>text-shadow: chiều ngang</td>
+        <td>text-shadow: 10px 2px 2px #999999;</td>
+        <td class="shadow2">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        </td>
+      </tr>
+      <tr>
+        <td>text-shadow: chiều dọc</td>
+        <td>text-shadow: 2px 10px 2px #999999;</td>
+        <td class="shadow3">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        </td>
+      </tr>
+      <tr>
+        <td>text-shadow: nhoè bóng</td>
+        <td>text-shadow: 2px 2px 10px #999999;</td>
+        <td class="shadow4">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        </td>
+      </tr>
+      <tr>
+        <td>text-shadow: màu bóng</td>
+        <td>text-shadow: 2px 2px 2px #00ff00;</td>
+        <td class="shadow5">
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
