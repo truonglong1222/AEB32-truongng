@@ -1,12 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>block ui 2</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block ui 2</title>
+    <link rel="stylesheet" href="../bootstrap-5.2.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia" />
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .col__conten {
+            border: 1px solid #ccc;
+            height: 300px;
+            width: 600px;
+        }
+
+        .imgages1 {
+            background-attachment: fixed;
+            height: inherit;
+        }
+
+        .images2 {
+            border-radius: 50%;
+
+        }
+
+        .bottomleft {
+            position: absolute;
+            bottom: 414px;
+            left: 116px;
+            font-size: 18px;
+            color: red;
+            display: flex;
+        }
+
+        .div__flex {
+            flex: 0.1;
+        }
+
+        .div__idd {
+            color: white;
+            padding-top: 9px;
+            font-family: 'Sofia';
+        }
+
+        .div__font1 {
+            font-size: 30px;
+            font-weight: bolder;
+        }
+
+        .div__font2 {
+            font-size: 16px;
+        }
+
+        .div__border1 {
+            border: 1px solid #ccc;
+            margin: 0;
+        }
+
+        .div__follow {
+            text-transform: uppercase;
+            font-weight: bolder;
+            color: forestgreen;
+        }
+
+        .div__number {
+            border: 1px solid #ccc;
+            border-radius: 7px;
+            text-align: center;
+            width: 65px;
+            font-weight: bolder;
+            color: white;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <div class="container ">
+        <div class="row col__conten ">
+            <img src="./images/bigstock-134510309.jpg" alt="fall" class="p-0 imgages1">
+            <div class=" bottomleft">
+                <div class="col div__flex pe-4"><img src="./images/20200403104047-41cb.jpg" alt="" width="100px"
+                        class="images2" height="100px"></div>
+                <div class="col div__idd">
+                    <div class="div__font1">Joseph Max</div>
+                    <div class="div__font2">Web Designer</div>
+                </div>
+            </div>
+        </div>
+        <div class="row col__conten ">
+            <div class="row align-items-center div__border1">
+                <div class="col ps-4 div__follow">followers</div>
+                <div class="col-2 div__number" style="background-color: red">1,200</div>
+            </div>
+            <div class="row align-items-center div__border1">
+                <div class="col ps-4 div__follow">followings</div>
+                <div class="col-2 div__number" style="background-color: blue">1,200</div>
+            </div>
+            <div class="row align-items-center div__border1">
+                <div class="col ps-4 div__follow">messages</div>
+                <div class="col-2 div__number" style="background-color: green">1,200</div>
+            </div>
+            <div class="row align-items-center div__border1">
+                <div class="col ps-4 div__follow">likes</div>
+                <div class="col-2 div__number" style="background-color: yellow">1,200</div>
+            </div>
+            <div class="row align-items-center div__border1">
+                <div class="col ps-4 div__follow">comments</div>
+                <div class="col-2 div__number" style="background-color: violet">1,200</div>
+            </div>
+            
+
+        <script src="../bootstrap-5.2.3-dist/umd/popper.min.js"></script>
+        <script src="../bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
 </body>
+
 </html>
