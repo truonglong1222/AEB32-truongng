@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function kiem_tra_snt() {
+        let n = prompt("nhập số cần kiểm tra");
+        let iSNT= 'YES'
+        for (let index = 2; index < n; index++) {
+            if (n%index===0) {
+                iSNT= 'NO'
+            }
+        }
+        console.log(iSNT);
+        // let flag = true;
+
+        // if (n < 2) {
+        //   flag = false;
+        // } else {
+        //   for (let i = 2; i < n - 1; i++) {
+        //     if (n % i == 0) {
+        //       flag = false;
+        //       break;
+        //     }
+        //   }
+        // }
+
+        // if (flag == true) {
+        //   console.log('YES');
+        // } else {
+        //   console.log('NO');
+        // }
+      }
+      kiem_tra_snt();
+    </script>
+  </body>
+</html>

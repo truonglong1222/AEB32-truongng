@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Nguyen Van Truong</h1>
+    <button
+      id="btn__delete"
+      onclick="handleOnClick()"
+      ondblclick="handleDbClick()"
+      onmouseover="handleHover()"
+    >
+      Delete
+    </button>
+    <script>
+      function handleOnClick() {
+        let elm = document.getElementById("btn__delete");
+        elm.style.color = "red";
+        elm.textContent = "a bờ cờ";
+        elm.style.display = "none";
+        console.log(elm);
+        // let isDelete = confirm("ban co muon xoa ko?");
+        // console.log(isDelete);
+      }
+      function handleDbClick() {
+        console.log("handleDbClick");
+        // let isDelete = confirm("ban co muon xoa ko?");
+        // console.log(isDelete);
+      }
+      function handleHover() {
+        console.log("handleHover");
+      }
+    </script>
+  </body>
+</html>

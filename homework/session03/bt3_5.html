@@ -9,22 +9,103 @@
       rel="stylesheet"
       href="../bootstrap-5.2.3-dist/css/bootstrap.min.css"
     />
+    <script
+      src="https://kit.fontawesome.com/573fad27ff.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
       body {
         margin: 0;
-        padding: o;
+        padding: 0;
       }
-      .div__parent {
-        margin: 8px;
+      .mg__parent {
+        margin: 10px;
+        /* border: 1px solid #ccc; */
+        padding: 10px;
+      }
+      .div__height {
+        height: 700px;
+      }
+      .div__flex {
+        display: flex;
+      }
+      .div__flex1 {
+        flex: 1;
+      }
+      .div__taL {
+        text-align: left;
+      }
+      .div__taR {
+        text-align: right;
+      }
+      .mgR20 {
+        margin-right: 20px;
+      }
+      .div__border {
         border: 1px solid #ccc;
-        padding: 5px;
       }
+      .div__add {
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: darkseagreen;
+      }
+      .pdB10 {
+        padding-bottom: 10px;
+      }
+      .div__borB {
+        border-bottom: 1px dashed gray;
+        padding: 5px 10px;
+        margin: 5px 0px;
+      }
+      /* robort pattison, developing */
     </style>
   </head>
   <body>
-    <div class="div__parent">
-      <div class="row">column</div>
-      <div class="row">column</div>
+    <div class="row mg__parent div__height">
+      <div class="col div__border text-center mgR20 mg__parent">
+        <div class="row pdB10">
+          <img
+            class="pdB10"
+            src="./images/Milla Jovovich.jpg"
+            width="300px"
+            height="300px"
+            alt=""
+          />
+          <div class="div__add pdB10">Milla Jovovich</div>
+          <div class="pdB10">Diễn viên</div>
+        </div>
+        <div class="row pdB10">
+          <div class="div__flex div__borB">
+            <div class="div__taL div__flex1">
+              <i class="fa-solid fa-calendar-days"></i> DOB
+            </div>
+            <div class="div__taR">17/12/1975</div>
+          </div>
+          <div class="div__flex div__borB">
+            <div class="div__taL div__flex1">
+              <i class="fa-solid fa-heart"></i> BG
+            </div>
+            <div class="div__taR">B+</div>
+          </div>
+          <div class="div__flex div__borB">
+            <div class="div__taL div__flex1">
+              <i class="fa-solid fa-graduation-cap"></i> EDU
+            </div>
+            <div class="div__taR">MCA</div>
+          </div>
+          <div class="div__flex div__borB">
+            <div class="div__taL div__flex1">
+              <i class="fa-solid fa-location-dot"></i> RES
+            </div>
+            <div class="div__taR">Liên Xô</div>
+          </div>
+
+        </div>
+        <div class="row">asd</div>
+      </div>
+      <div class="col div__border mgR20">column2</div>
+      <div class="col div__border mgR20">column1</div>
+      <div class="col div__border mgR20">column2</div>
     </div>
     <script src="../bootstrap-5.2.3-dist/umd/popper.min.js"></script>
     <script src="../bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>

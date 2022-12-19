@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Min 4 số</h1>
+    <script>
+      function min4so() {
+        let numbermin = parseInt(prompt("nhập vào số thứ nhất"));
+        let b = parseInt(prompt("nhập vào số thứ hai"));
+        let c = parseInt(prompt("nhập vào số thứ ba"));
+        let d = parseInt(prompt("nhập vào số thứ tư"));
+        
+        if (b < numbermin) {
+          numbermin = b;
+          alert("số min là: " + numbermin);
+        }
+        if (c < numbermin) {
+          numbermin = c;
+          alert("số min là: " + numbermin);
+        }
+        if (d < numbermin) {
+          numbermin = d;
+          alert("số min là: " + numbermin);
+        }
+        alert("số min là: " + numbermin);
+      }
+      min4so();
+    </script>
+  </body>
+</html>
